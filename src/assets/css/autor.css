@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+#autor__section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem 0;
+    background-color: rgb(110, 0, 0);
+}
+
+.autor__section__title {
+    font-weight: 700;
+    text-align: center;
+}
+
+.autor__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.autor__container__group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.autor__container__group_img {
+    background-position: center;
+    background-size: cover;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    border: 5px solid rgb(247, 252, 218);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
+}
+
+.autor__container__group_img span {
+    color: rgb(247, 252, 218);
+}
+
+.imgLucas {
+    background-image: url("../img/imgLucas.jfif");
+}
+
+.imgThiago {
+    background-image: url("../img/imgThiago");
+}

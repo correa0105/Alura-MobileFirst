@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+header {
+  background: #000000;
+}
+
+.menu__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__container--menuSize {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#logo-escrita {
+  display: block;
+  width: 15rem;
+}
+
+#logo-cs {
+  display: none;
+  width: 4rem;
+  padding: .8rem 0;
+}
+
+.menu__container__itemsList {
+  display: flex;
+  gap: 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem 0;
+  color: #ffff;
+}
+
+#btn-mobile {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 3rem;
+  color: #ffff;
+}

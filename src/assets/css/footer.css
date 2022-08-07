@@ -1,0 +1,64 @@
+footer {
+    background-color: rgb(110, 0, 0);
+    padding: 4rem
+}
+
+.footer__container_title {
+    text-align: center;
+}
+
+.grid__portfolio {
+    display: grid;
+    grid-template:
+    "portifolio1 portifolio2 portifolio3"
+    "portifolio4 portifolio4 portifolio4"
+    "portifolio5 portifolio5 portifolio6"
+    "portifolio7 portifolio7 portifolio7";
+    gap: 5px;
+    margin: 2rem 1rem;
+}
+
+.grid__portfolio div {
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 25px 0;
+}
+
+.grid__portfolio div:nth-child(1){
+    grid-area: portifolio1;
+}
+
+.grid__portfolio div:nth-child(2){
+    grid-area: portifolio2;
+}
+
+.grid__portfolio div:nth-child(3){
+    grid-area: portifolio3;
+}
+
+.grid__portfolio div:nth-child(4){
+    grid-area: portifolio4;
+}
+
+.grid__portfolio div:nth-child(5){
+    grid-area: portifolio5;
+}
+
+.grid__portfolio div:nth-child(6){
+    grid-area: portifolio6;
+}
+
+.grid__portfolio div:nth-child(7){
+    grid-area: portifolio7;
+}
+
+.direitos__reservados {
+    text-align: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    background: #000000;
+    color: #ffffff;
+    padding: 8px 0;
+    margin-top: 4rem;
+}

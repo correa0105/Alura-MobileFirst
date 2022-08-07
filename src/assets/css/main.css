@@ -1,0 +1,46 @@
+main {
+    background-color: rgb(88, 0, 0);
+    color: #ffffff;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    height: 75vh;
+    padding: 1rem;
+}
+
+.main_container_title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main_container_title ~ p {
+    font-size: 1.4rem;
+    text-align: center;
+    color: #ffff;
+}
+
+.button__group {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem
+}
+
+.button__group button {
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    padding: 10px 15px;
+    color: #ffffff;
+}
+
+.button__group button:nth-child(2) {
+    background: #2F7C8E;
+    background-position: center;
+    color: #000000;
+    font-weight: 600;
+}

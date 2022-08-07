@@ -1,0 +1,20 @@
+.diferenciais__container {
+    background-color: rgb(88, 0, 0);
+    color: white;
+    padding: 4rem 1rem;
+}
+
+.diferenciais__container__content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.diferenciais__container__group {
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+.diferenciais__container__group i {
+    margin-right: .8rem;
+}
